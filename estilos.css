@@ -1,0 +1,137 @@
+.contenido {
+    padding-top: 20px !important;
+    padding-top: 30px;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+body::before {
+    background-image: url('assets/img/bg.png');
+    content: '';
+
+}
+
+
+.producto img {
+
+    height: 220px;
+
+}
+
+.nombre {
+    font-size: 2.0rem;
+    color: purple;
+
+}
+
+.imagen img {
+    width: 300px;
+    height: 500px;
+}
+
+.descripcion {
+    font-size: 1.8;
+    color: mediumpurple;
+    text-align: center;
+}
+
+.precio {
+    font-size: 1.8;
+    color: mediumpurple;
+    text-align: center;
+}
+
+.centrar {
+    text-align: center;
+}
+
+.contenedor {
+    width: 95% !important;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: mediumpurple;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.0rem;
+    color: mediumpurple;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: mediumpurple;
+    text-align: center;
+}
+
+strong {
+    text-align: center;
+}
+
+.logo {
+    font-size: 3.0rem !important;
+}
+
+.imagen {
+    width: 200px;
+    height: 150px;
+}
+
+.descripcion {
+    text-align: left;
+}
+
+.precio {
+    font-size: 1.5rem;
+}
+
+
+
+.anuncio::after {
+    background-image: url(objetos.jpg);
+
+
+}
+
+.articulo {
+    height: 500px;
+    width: 500px;
+}
+
+
+
+.anuncio {
+    background-image: url(objetos.jpg);
+    height: 600px;
+    background-position: top center;
+    background-size: cover;
+    padding-top: 100px;
+
+}
+
+.anuncio h2 {
+    font-size: 2.5rem;
+    color: white;
+}
+
+.anuncio p {
+    font-size: 2rem;
+    color: white;
+}
+
+.error {
+    color: red;
+    display: block;
+    font-size: 10px;
+    padding-top: 5px;
+}
+
+.unidades {
+    padding: 0 5px 0 5px;
+}
